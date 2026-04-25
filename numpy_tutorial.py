@@ -3,4 +3,8 @@ a=np.array([[1,2,3],
             [3,4,5]])
 print(np.unique(a)[-2])
 d=np.arange(12).reshape(3,4)
-print(d([3,4]))
+print(np.sum(a,axis=1))
+c=np.array([[1,2,3],
+            [4,5,6]])
+e=np.argsort(c)
+print(e)
